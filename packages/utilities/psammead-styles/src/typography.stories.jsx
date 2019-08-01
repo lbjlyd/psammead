@@ -27,7 +27,7 @@ const typographyStory = typographyFunc =>
     </TypographyText>
   ));
 
-const stories = storiesOf('Typography', module).addDecorator(withKnobs);
+const stories = storiesOf('Utilities|Psammead Styles|Typography', module).addDecorator(withKnobs);
 
 Object.keys(typographies)
   .filter(typographyName => typeof typographies[typographyName] === 'function')
